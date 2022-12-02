@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+body{
+  
+  overflow: auto;
+  
+}
+
+
+header {
+  background-color: rgb(255, 255, 255);
+  width: 1440px;
+  height: 300px;
+  margin: auto;
+
+}
+
+.midias {
+  background-color: rgb(255, 255, 255);
+  height: 25px;
+}
+
+#midias {
+  height: 20px;
+  margin-top: 1px;
+  margin-left: 50px;
+}
+
+.logo {
+  height: 100px;
+  margin-left: 50px;
+}
+
+.conta {
+  font-family: 'Aldrich', sans-serif;
+  float: right;
+  width: 30%;
+  margin-top: 40px;
+  margin-right: 100px;
+}
+
+.parte2 {
+  font-family: 'Aldrich', sans-serif;
+  background-color: rgb(255, 255, 255);
+  margin-top: 40px;
+  width: 1440px;
+  height: 40px;
+  align-items: center;
+  float: right;
+}
+
+.barraPesquisa {
+  margin-top: 20px;
+}
+
+#divBusca {
+  background-color: #000000;
+  border: solid 1px;
+  border-radius: 15px;
+  height: 50px;
+  width: 310px;
+  margin-left: 550px;
+  text-decoration: rgb(8, 8, 240);
+}
+
+#txtBusca {
+  align-items: center;
+  background-color: #f3f3f3;
+
+  border-radius: 15px;
+
+  padding-left: 5px;
+  font-family: 'Aldrich', sans-serif;
+  margin-top: 8px;
+ 
+  
+  border: none;
+  height: 32px;
+  width: 260px;
+}
+
+form.example button:hover {
+  background: #000000;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+main {
+  background-color: rgb(255, 255, 255);
+  width: 1440px;
+  margin: auto;
+
+}
+
+.carrousel {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 804px;
+  margin: auto;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn1 {
+  position: absolute;
+  height: 100px;
+  width: 270px;
+  top: 500px;
+  left: 340px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-family: 'Aldrich', sans-serif;
+
+  font-size: 30px;
+  padding: 16px 30px;
+  border: 3px solid #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+
+.btn1:hover {
+  background-color: white;
+  color: black;
+
+}
+.btn1 a{
+  color: #ffffff;
+}
+.btn1 a:hover{
+  color: #000000;
+}
+
+.container .btn2 {
+  position: absolute;
+  height: 100px;
+  width: 400px;
+  top: 635px;
+  left: 650px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-family: 'Aldrich', sans-serif;
+  font-size: 30px;
+  padding: 16px 30px;
+  border: 3px solid #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn2:hover:hover {
+  background-color: white;
+  color: black;
+
+}
+.btn2 a{
+  color: #ffffff;
+}
+.btn2 a:hover{
+  color: #000000;
+}
+
+.container .btn3 {
+  position: absolute;
+  height: 70px;
+  width: 350px;
+  top: 400px;
+  left: 500px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(18, 27, 156);
+  color: rgb(244, 244, 255);
+  font-family: 'Aldrich', sans-serif;
+  font-size: 30px;
+  padding: 16px 30px;
+  border: 3px solid rgb(0, 183, 255);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn3:hover {
+  background-color: rgb(12, 1, 1);
+  color: rgb(0, 183, 255);
+
+}
+.btn3 a{
+  color: #ffffff;
+}
+.btn3 a:hover{
+  color: rgb(0, 183, 255);
+}
+
+
+.container .btn4 {
+  position: absolute;
+  height: 70px;
+  width: 350px;
+  top: 50px;
+  left: 900px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #07d107;
+  color: rgb(255, 255, 255);
+  font-family: 'Aldrich', sans-serif;
+  font-size: 30px;
+  padding: 16px 30px;
+  border: 3px solid #09c438;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn4:hover {
+  background-color: rgb(255, 255, 255);
+  color: #07d107;
+}
+
+.btn4 a{
+  color: #ffffff;
+}
+.btn4 a:hover{
+  color: #07d107;
+}
+
+.inicio{
+  text-align: center;
+  
+}
+.inicio img{
+  height: 400px;
+  animation: animate 
+  2.5s linear infinite;
+  }
+
+
+@keyframes animate {
+0% {
+opacity: 0;
+}
+
+50% {
+opacity: 1;
+}
+
+100% {
+opacity: 0;
+}
+}
+.inicio h1{
+  margin-top: 10px;
+  font-size: 80px;
+  font-weight: bolder ;
+  font-family: 'Aldrich', sans-serif;
+  font-weight: 200px;
+}
+.inicio p{
+  font-size: 40px;
+  font-family: 'Aldrich', sans-serif;
+}
+
+
+
+
+.banner1 {
+  background-color: #ffffff;
+  height: 1250px;
+  margin-top: 0px;
+
+}
+
+.grid {
+  display: grid;
+  height: 500px;
+  border: rgb(255, 255, 255) 5px solid;
+  margin-top: 100px;
+}
+
+.player {
+  border: rgb(255, 255, 255) 5px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+
+}
+.player:nth-child(4):last-child {
+  grid-column: 2;
+}
+.containerbannerA {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.containerbannerA img {
+  margin: 10px;
+  
+  
+}
+
+.containerbannerA .btn1b1 {
+  position: absolute;
+  height: 70px;
+  width: 400px;
+  top: 340px;
+  left: 210px;
+  border-radius: 50px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-family: 'Aldrich', sans-serif;
+  font-size: 25px;
+}
+.btn1b1:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+.btn1b1 a{
+  color: #000000;
+}
+.btn1b1 a:hover{
+  color: #ffffff;
+}
+.containerbannerB{
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+}
+
+.containerbannerB img {
+  
+  height: 600px;
+  width: 600px;
+ 
+  
+}
+.containerbannerC{
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+}
+
+.containerbannerC img {
+  
+  height: 600px;
+  width: 600px;
+ 
+  
+}
+
+.containerbannerD {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.containerbannerD img {
+  margin: 10px;
+  
+  
+}
+
+.containerbannerD .btnb2 {
+  position: absolute;
+  height: 70px;
+  width: 400px;
+  top: 355px;
+  left: 210px;
+  border-radius: 50px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-family: 'Aldrich', sans-serif;
+  font-size: 25px;
+  
+}
+
+.btnb2:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+.btnb2 a{
+  color: #000000;
+}
+.btnb2 a:hover{
+  color: #ffffff;
+}
+
+.containerbanner2 {
+  position: relative;
+  width: 100%;
+  max-width: 1490px;
+}
+
+.containerbanner2 img {
+  margin: 0px;
+  
+  
+}
+
+.containerbanner2 .btn1 {
+  position: absolute;
+  height: 100px;
+  width: 470px;
+  top: 460px;
+  left: 720px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-family: 'Aldrich', sans-serif;
+
+  font-size: 50px;
+  padding: 16px 30px;
+  border: 3px solid #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+.containerbanner2 .btn1:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(50, 248, 0);
+  border: 10px solid #da0000;
+}
+.containerbanner2 .btn1 a{
+  color: rgb(255, 255, 255);
+}
+.containerbanner2 .btn1 a:hover{
+  color: rgb(50, 248, 0);
+}
+
+.banner3{
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  height: 1000px;
+}
+.final{
+  padding: 50px;
+}
+
+/* PAgina Produtos */
+
+.melhores-marcas h1{
+  margin-top: 25px;
+  text-align: center;
+  background-color: #000000;
+  color: white;
+  font-family: 'Aldrich', sans-serif;
+}
+.marcas{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+.marcas  div{
+  background-color: #ffffff;
+  width: 130px;
+  height: 130px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.menu2{
+  align-items: center;
+  background-color: #000000;
+  height: 350px;
+}
+.opcao h5{
+  color: white;
+  text-align: center;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 50px;
+ 
+}
+
+.pc-gamer{
+  margin-top: 50px;
+  background-color: #000000;
+  height: 80px;
+}
+.pc-gamer h1{
+  color: #da0000;
+  font-size: 60px;
+  font-family: 'Aldrich', sans-serif;
+}
+.pc-gamer-produtos{
+  margin: 20px;
+}
+.console{
+  background-color: #000000;
+  height: 80px;
+}
+.console h1{
+  color: #2879e2;
+  font-size: 60px;
+  font-family: 'Aldrich', sans-serif;
+  text-align: center;
+}
+.perifericos{
+  background-color: #000000;
+  height: 80px;
+}
+.perifericos h1{
+  color: #00d31c;
+  font-size: 60px;
+  font-family: 'Aldrich', sans-serif;
+  text-align: right;
+}
+
+.SobreNos {
+ 
+  background-color: white;
+}
+.SobreNos h1 p{
+  font-family: 'Aldrich', sans-serif;
+}
+
+
+
+
+
+
+footer {
+  margin-top: 100px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 1440px;
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+  font-family: 'Aldrich', sans-serif;
+}
